@@ -1,3 +1,8 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+# project based files
+.idea/
+*.iml
+*.ipr
+*.iws
