@@ -27,7 +27,7 @@ classDiagram
 
     Coffee <|-- BasicCoffee : is-a
     Coffee <|-- CoffeeDecorator : is-a
-    Coffee *-- CoffeeDecorator : has-a
+    Coffee --o CoffeeDecorator : has-a
     CoffeeDecorator <|-- MilkDecorator : is-a
     CoffeeDecorator <|-- SugarDecorator : is-a
 ```
