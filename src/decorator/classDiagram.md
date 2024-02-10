@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class Coffee {
         getDescription() String
@@ -29,3 +30,4 @@ classDiagram
     Coffee *-- CoffeeDecorator : has-a
     CoffeeDecorator <|-- MilkDecorator : is-a
     CoffeeDecorator <|-- SugarDecorator : is-a
+```
