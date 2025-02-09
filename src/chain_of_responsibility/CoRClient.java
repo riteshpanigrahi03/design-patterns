@@ -30,3 +30,17 @@ public class CoRClient {
         System.out.println("User is valid: " + isValid);
     }
 }
+/*
+Validating valid user: User{username='JohnDoe', password='secret123', email='john@example.com'}
+Username validation passed
+Password validation passed
+Email validation passed
+User is valid: true
+
+-----------------------------
+
+Validating invalid user: User{username='John Doe', password='123', email='johnexample.com'}
+Username validation passed
+Validation Failed: Password must be at least 6 characters long
+User is valid: true
+ */
